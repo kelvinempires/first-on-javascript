@@ -1,0 +1,60 @@
+body {
+  background-image: url(./image/Screenshot\ 2024-09-15\ 195618.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  height: 600px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.first {
+  background-color: rgba(0, 0, 0, 0.493);
+  text-transform: capitalize;
+  font-size: xx-large;
+  font-weight: 900;
+  color: white;
+  padding-top: 50px;
+}
+#count-el {
+  background-color: rgba(0, 0, 255, 0.461);
+  text-transform: capitalize;
+  font-size: xx-large;
+  width: 50px;
+  border-radius: 20px;
+}
+
+#increament-btn {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+}
+.increment-btn {
+  background-color: darkred;
+}
+.save-btn {
+  background-color: darkblue;
+}
+#save-btn {
+  background-color: blue;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+}
+#save-el{
+  text-decoration: overline;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: bold;
+}
